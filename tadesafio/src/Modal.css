@@ -1,0 +1,51 @@
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.contenido-modal{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    position:relative;
+}
+
+#cerrar-btn{
+    background-color: rgb(210, 206, 206);
+    border-radius: 5px;
+    border:0cap;
+    position:absolute;
+    top: 15px;
+    right: 16px;
+
+}
+
+.botones-modal{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#guardar-btn{
+    background-color: rgb(51, 213, 124);
+    color: white;
+    border-radius: 5px;
+    border:0cap;
+}
+
+#cancelar-btn{
+    background-color: rgb(245, 90, 90);
+    color: white;
+    border-radius: 5px;
+    border:0cap;
+    height: 30px;
+}

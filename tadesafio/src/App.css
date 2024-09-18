@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+
+#AgregarEnLista-btn{
+  background-color: rgb(42, 81, 237);
+  color:white;
+  border:0cap;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.listaDeElementos{
+  display: flex;
+  justify-content:center;
+  background-color: white;
+  width: 50%;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.App-header {
+  background-color: #f4d6fa;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
